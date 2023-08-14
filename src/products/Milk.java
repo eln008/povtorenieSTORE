@@ -1,2 +1,7 @@
-package products;public class Milk {
+package products;
+
+public class Milk extends Product{
+    public Milk(String productName, int expDay) {
+        super(productName, expDay);
+    }
 }
